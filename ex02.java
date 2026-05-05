@@ -6,6 +6,8 @@ public class ex02 {
 
         double quantidademax, quantidademin, quantidademedia;
 
+        System.out.println("Calculadora de Estoque médio \n \n");
+
         System.out.println("qual a quantidade máxima de estoque? ");
         quantidademax = sc.nextDouble();
         sc.nextLine();
@@ -16,7 +18,7 @@ public class ex02 {
 
         quantidademedia = (quantidademax + quantidademin)/2;
 
-        System.out.println("A quantidade média do estoque da peça é de: "+quantidademedia);
+        System.out.println("A quantidade média do estoque da peça é de: "+quantidademedia + "\n");
         sc.close();
 
     }
