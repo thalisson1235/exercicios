@@ -7,6 +7,10 @@ public class ex01 {
 
         System.out.println("Digite o seu nome: ");
         String nome = sc.nextLine();
+        
+
+        System.out.println("qual seu números de horas trabalhadas? ");
+        int hrstrabalhadas = sc.nextInt();
         sc.close();
         
     }
