@@ -28,7 +28,7 @@ public class ex03 {
 	System.out.println("Menor = "+Menor);
 	System.out.println("Maior ou igual = "+MaiorOuIgual);
 	System.out.println("Menor ou igual = "+MenorOuIgual);
-		
+		sc.close();
     }
 
     }
